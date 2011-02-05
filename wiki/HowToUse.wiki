@@ -1,0 +1,20 @@
+#labels Phase-Design
+This page will introduce the hotkey of keynav.ahk
+
+= Introduction =
+
+keynav on Linux support more powerful function. keynav.ahk just implements the core fun
+
+
+= Details =
+
+_core_ _hotkey_
+  * ctrl+; to enter the selection mode
+  * h,j,k,l to select the require region (like VIM)
+  * Esc to escape the selection
+  * ;(semicolon) move the mouse to the target (mark by the red point)
+  * Space left click the target
+  * Shift+Space Double click the target
+
+= To Do =
+  * move the mouse without attracting the focus
