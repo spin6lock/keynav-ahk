@@ -63,6 +63,7 @@ Space::
 
 ; Generated using SmartGUI Creator 4.0
 ^;::
+CoordMode,Mouse,Screen
 Gui,+AlwaysOnTop -Caption +ToolWindow
 Gui,margin,0,0
 Gui, Show, W%A_ScreenWidth% H%A_ScreenHeight%, _keynav
@@ -92,7 +93,6 @@ MoveMouse(x, y, width, height)
 	y += height
 	mouseX := x
 	mouseY := y
-	CoordMode,Mouse,Screen
 	If (width > 25 And height > 25)
 	{
 		WinMove,_mouse,,%x%, %y%
